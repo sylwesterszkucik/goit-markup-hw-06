@@ -716,6 +716,31 @@ figure {
   border-radius: 4px;
   margin-top: 4px;
   margin-bottom: 10px;
+  padding-left: 30px;
+}
+
+.svgPosition {
+  position: relative;
+}
+
+.svgForModal:hover {
+  fill: #2196f3;
+}
+.inputStyles:hover {
+  border: 1px solid #2196f3;
+}
+
+.inputStyles:hover .svgForModal,
+.inputStyles:focus .svgForModal {
+  fill: #2196f3;
+  cursor: pointer;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.svgForModal {
+  position: absolute;
+  top: 30px;
+  left: 10px;
 }
 
 .inputStylesComments {
