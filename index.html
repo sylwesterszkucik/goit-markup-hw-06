@@ -81,6 +81,80 @@
                   ></use>
                 </svg>
               </button>
+              <div class="modalFormDiv">
+                <form class="modalForm" name="DataForm">
+                  <a class="modalTitle"
+                    >Zostaw swoje dane w formularzu poniżej</a
+                  >
+                  <ul class="modalList">
+                    <li>
+                      <label class="labelStyleTest" for="nameInputTest"
+                        >Imie</label
+                      >
+                    </li>
+                    <li>
+                      <label class="labelStyles" for="nameInput">Imie</label>
+                      <input
+                        id="nameInput"
+                        type="text"
+                        name="userName"
+                        class="inputStyles"
+                        style="
+                          background-image: url('./images/symbol-defs.svg#icon-Vector');
+                        "
+                      />
+                    </li>
+
+                    <li>
+                      <label class="labelStyles" for="phoneInput"
+                        >Telefon</label
+                      >
+                      <input
+                        id="phoneInput"
+                        type="tel"
+                        name="userPhoneNumber"
+                        class="inputStyles"
+                      />
+                    </li>
+
+                    <li>
+                      <label class="labelStyles" for="emailInput">Email</label>
+                      <input
+                        id="emailInput"
+                        type="email"
+                        name="userEmail"
+                        class="inputStyles"
+                      />
+                    </li>
+
+                    <li>
+                      <label class="labelStyles" for="commentsInput"
+                        >Komentarz</label
+                      >
+                      <input
+                        id="commentsInput"
+                        type="text"
+                        name="userComment"
+                        class="inputStylesComments"
+                        placeholder="Wprowadz tekst"
+                      />
+                    </li>
+                    <li class="checkboxStyles">
+                      <input
+                        id="agreement"
+                        type="checkbox"
+                        name="rulezAndPolicyAgreement"
+                        class="agreementStylesInput"
+                      />
+                      <label class="agreementStyles" for="agreement"
+                        >Oświadczam iż akceptuję <a href="">Regulamin</a> i
+                        <a href="">Politykę Prywatności</a>.</label
+                      >
+                    </li>
+                  </ul>
+                  <button type="submit" class="formButton">Wyślij</button>
+                </form>
+              </div>
             </div>
           </div>
         </div>

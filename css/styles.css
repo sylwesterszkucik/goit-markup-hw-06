@@ -679,6 +679,93 @@ figure {
   padding: 8px;
   margin: 8px;
 }
+
+.modalTitle {
+  width: 448px;
+  height: 23px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 0.03em;
+  color: #212121;
+  margin-left: 30px;
+}
+
+.modalForm {
+  padding-top: 40px;
+  padding-left: 40px;
+}
+
+.labelStyles {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.01em;
+  color: #757575;
+}
+
+.inputStyles {
+  box-sizing: border-box;
+  width: 448px;
+  height: 40px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  margin-top: 4px;
+  margin-bottom: 10px;
+}
+
+.inputStylesComments {
+  box-sizing: border-box;
+  width: 448px;
+  height: 120px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  padding-left: 16px;
+  padding-bottom: 70px;
+  margin-top: 4px;
+  margin-bottom: 20px;
+}
+
+.agreementStyles {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.checkboxStyles {
+  display: inline-flex;
+}
+.modalList {
+  list-style: none;
+  padding: 0;
+}
+
+.inputStyles,
+.labelStyles {
+  display: flex;
+  flex-direction: column;
+}
+
+.formButton {
+  width: 200px;
+  height: 50px;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: none;
+  margin-top: 15px;
+  color: #ececec;
+  margin-left: 120px;
+}
+
 /* /modal things*/
 
 /* czym się zajmujemy features */
@@ -822,4 +909,4 @@ figure {
   fill: white;
   margin-top: 13px;
 }
-/* /newsletter stopka */ ;
+/* /newsletter stopka */
