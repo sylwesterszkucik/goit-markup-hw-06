@@ -636,7 +636,8 @@ figure {
   gap: 10px;
 }
 
-/* modal things*/
+/* modal things*/ /* modal things*/ /* modal things*/ /* modal things*/ /* modal things*/ /* modal things*/ /* modal things*/ /* modal things*/ /* modal things*/ /* modal things*/ /* modal things*/ /* modal things*/ /* modal things*/ /* modal things*/ /* modal things*/ /* modal things*/ /* modal things*/ /* modal things*/
+
 .is-hidden {
   pointer-events: none;
   visibility: hidden;
@@ -717,6 +718,7 @@ figure {
   margin-top: 4px;
   margin-bottom: 10px;
   padding-left: 30px;
+  outline: none;
 }
 
 .svgPosition {
@@ -753,6 +755,11 @@ figure {
   padding-bottom: 70px;
   margin-top: 4px;
   margin-bottom: 20px;
+  outline: none;
+}
+
+.inputStylesComments:hover {
+  border: 1px solid #2196f3;
 }
 
 .agreementStyles {
@@ -763,6 +770,10 @@ figure {
   line-height: 24px;
   letter-spacing: 0.03em;
   color: #757575;
+  position: relative;
+  cursor: pointer;
+  margin-right: 0px;
+  margin-left: 20px;
 }
 
 .checkboxStyles {
@@ -779,6 +790,33 @@ figure {
   flex-direction: column;
 }
 
+.agreementStyles::before {
+  display: block;
+  position: absolute;
+  left: -25px;
+  top: 2px;
+  content: "";
+  width: 16px;
+  height: 15px;
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='15' fill='none'%3E%3Cpath fill='%23212121' d='M14.222 1.667v11.666H1.778V1.667h12.444Zm0-1.667H1.778C.8 0 0 .75 0 1.667v11.666C0 14.25.8 15 1.778 15h12.444C15.2 15 16 14.25 16 13.333V1.667C16 .75 15.2 0 14.222 0Z'/%3E%3C/svg%3E");
+}
+
+.termsAndConditionsDiv {
+  display: flex;
+  justify-content: center;
+  width: 448px;
+  height: 24px;
+}
+.agreementStylesInput {
+  appearance: none;
+}
+
+.agreementStylesInput:checked + .agreementStyles::before {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='15' fill='none'%3E%3Crect width='16' height='15' fill='%232196F3' rx='2'/%3E%3Cpath fill='%23fff' stroke='%23fff' stroke-width='.2' d='m3.957 7.752-.069-.066-.069.065-.888.842-.076.072.076.073 3.496 3.334.069.066.069-.066 7.504-7.158.076-.073-.076-.072-.882-.841-.069-.066-.069.066-6.553 6.246-2.539-2.422Z'/%3E%3C/svg%3E");
+  background-position: center;
+  border: none;
+}
+
 .formButton {
   width: 200px;
   height: 50px;
@@ -791,9 +829,9 @@ figure {
   margin-left: 120px;
 }
 
-/* /modal things*/
+/* /modal things*/ /* /modal things*/ /* /modal things*/ /* /modal things*/ /* /modal things*/ /* /modal things*/ /* /modal things*/ /* /modal things*/ /* /modal things*/ /* /modal things*/ /* /modal things*/ /* /modal things*/ /* /modal things*/ /* /modal things*/ /* /modal things*/ /* /modal things*/
 
-/* czym się zajmujemy features */
+/* czym się zajmujemy features */ /* czym się zajmujemy features */ /* czym się zajmujemy features */ /* czym się zajmujemy features */ /* czym się zajmujemy features */ /* czym się zajmujemy features */ /* czym się zajmujemy features */ /* czym się zajmujemy features */ /* czym się zajmujemy features */
 .shadowBoxWithText {
   position: absolute;
   width: 370px;
@@ -821,9 +859,9 @@ figure {
   display: flex;
   align-items: flex-end;
 }
-/* /czym się zajmujemy features */
+/* /czym się zajmujemy features */ /* /czym się zajmujemy features */ /* /czym się zajmujemy features */ /* /czym się zajmujemy features */ /* /czym się zajmujemy features */ /* /czym się zajmujemy features */ /* /czym się zajmujemy features */ /* /czym się zajmujemy features */ /* /czym się zajmujemy features */ /* /czym się zajmujemy features */
 
-/* niebieski wysuwacz na zdjęcie */
+/* niebieski wysuwacz na zdjęcie */ /* niebieski wysuwacz na zdjęcie */ /* niebieski wysuwacz na zdjęcie */ /* niebieski wysuwacz na zdjęcie */ /* niebieski wysuwacz na zdjęcie */ /* niebieski wysuwacz na zdjęcie */ /* niebieski wysuwacz na zdjęcie */ /* niebieski wysuwacz na zdjęcie */ /* niebieski wysuwacz na zdjęcie */ /* niebieski wysuwacz na zdjęcie */
 .blueBoxWithText {
   position: relative;
   cursor: pointer;
@@ -854,9 +892,9 @@ figure {
   padding-bottom: 49px;
   padding-left: 24px;
 }
-/* /niebieski wysuwacz na zdjęcie */
+/* /niebieski wysuwacz na zdjęcie */ /* /niebieski wysuwacz na zdjęcie */ /* /niebieski wysuwacz na zdjęcie */ /* /niebieski wysuwacz na zdjęcie */ /* /niebieski wysuwacz na zdjęcie */ /* /niebieski wysuwacz na zdjęcie */ /* /niebieski wysuwacz na zdjęcie */ /* /niebieski wysuwacz na zdjęcie */ /* /niebieski wysuwacz na zdjęcie */ /* /niebieski wysuwacz na zdjęcie */ /* /niebieski wysuwacz na zdjęcie */ /* /niebieski wysuwacz na zdjęcie */ /* /niebieski wysuwacz na zdjęcie */
 
-/* niebieski zaznaczacz na ktorej podstronie jestesmy */
+/* niebieski zaznaczacz na ktorej podstronie jestesmy */ /* niebieski zaznaczacz na ktorej podstronie jestesmy */ /* niebieski zaznaczacz na ktorej podstronie jestesmy */ /* niebieski zaznaczacz na ktorej podstronie jestesmy */ /* niebieski zaznaczacz na ktorej podstronie jestesmy */ /* niebieski zaznaczacz na ktorej podstronie jestesmy */ /* niebieski zaznaczacz na ktorej podstronie jestesmy */ /* niebieski zaznaczacz na ktorej podstronie jestesmy */ /* niebieski zaznaczacz na ktorej podstronie jestesmy */ /* niebieski zaznaczacz na ktorej podstronie jestesmy */
 .hoverAgency::after {
   display: block;
   content: "";
@@ -879,9 +917,9 @@ figure {
   margin-top: 23px;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-/* /niebieski zaznaczacz na ktorej podstronie jestesmy */
+/* /niebieski zaznaczacz na ktorej podstronie jestesmy */ /* /niebieski zaznaczacz na ktorej podstronie jestesmy */ /* /niebieski zaznaczacz na ktorej podstronie jestesmy */ /* /niebieski zaznaczacz na ktorej podstronie jestesmy */ /* /niebieski zaznaczacz na ktorej podstronie jestesmy */ /* /niebieski zaznaczacz na ktorej podstronie jestesmy */
 
-/* newsletter stopka */
+/* newsletter stopka */ /* newsletter stopka */ /* newsletter stopka */ /* newsletter stopka */ /* newsletter stopka */ /* newsletter stopka */ /* newsletter stopka */ /* newsletter stopka */ /* newsletter stopka */ /* newsletter stopka */ /* newsletter stopka */ /* newsletter stopka */
 .formularz {
   padding-left: 78px;
   padding-top: 88px;
@@ -934,4 +972,4 @@ figure {
   fill: white;
   margin-top: 13px;
 }
-/* /newsletter stopka */
+/* /newsletter stopka */ /* /newsletter stopka */ /* /newsletter stopka */ /* /newsletter stopka */ /* /newsletter stopka */ /* /newsletter stopka */ /* /newsletter stopka */ /* /newsletter stopka */ /* /newsletter stopka */ /* /newsletter stopka */ /* /newsletter stopka */ /* /newsletter stopka */ /* /newsletter stopka */

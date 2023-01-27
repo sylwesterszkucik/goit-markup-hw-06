@@ -96,7 +96,7 @@
                         class="inputStyles"
                       />
                       <svg class="svgForModal" width="12px" height="12px">
-                        <use href="./images/symbol-defs.svg#icon-Vector"></use>
+                        <use href="./images/icons.svg#icon-Vector"></use>
                       </svg>
                     </li>
 
@@ -112,7 +112,7 @@
                       />
                       <svg class="svgForModal" width="12px" height="12px">
                         <use
-                          href="./images/symbol-defs.svg#icon-Vector-2"
+                          href="./images/icons.svg#icon-Vector-2"
                         ></use>
                       </svg>
                     </li>
@@ -127,7 +127,7 @@
                       />
                       <svg class="svgForModal" width="12px" height="12px">
                         <use
-                          href="./images/symbol-defs.svg#icon-Vector-3"
+                          href="./images/icons.svg#icon-Vector-3"
                         ></use>
                       </svg>
                     </li>
@@ -145,16 +145,22 @@
                       />
                     </li>
                     <li class="checkboxStyles">
-                      <input
-                        id="agreement"
-                        type="checkbox"
-                        name="rulezAndPolicyAgreement"
-                        class="agreementStylesInput"
-                      />
-                      <label class="agreementStyles" for="agreement"
-                        >Oświadczam iż akceptuję <a href="">Regulamin</a> i
-                        <a href="">Politykę Prywatności</a>.</label
-                      >
+                      <div class="termsAndConditionsDiv">
+                        <input
+                          id="agreement"
+                          type="checkbox"
+                          name="rulezAndPolicyAgreement"
+                          class="agreementStylesInput"
+                          value="true"
+                          required
+                        />
+                        <label for="agreement" class="agreementStyles"
+                          >Oświadczam iż akceptuję <a href="">Regulamin</a> i
+                          <a href="">Politykę Prywatności</a>.</label
+                        >
+                      </div>
+                    </li>
+                
                     </li>
                   </ul>
                   <button type="submit" class="formButton">Wyślij</button>
@@ -583,7 +589,7 @@
                   Zapisz się
                   <span class="svgNewsletterFooter">
                     <svg width="24px" height="24px">
-                      <use href="./images/symbol-defs.svg#icon-icon-send"></use>
+                      <use href="./images/icons.svg#icon-icon-send"></use>
                     </svg>
                   </span>
                 </button>
