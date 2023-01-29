@@ -733,6 +733,10 @@ figure {
   border: 1px solid #2196f3;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.inputStyles:focus {
+  border: 1px solid #2196f3;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 
 .inputStyles:hover + .svgForModal,
 .inputStyles:focus + .svgForModal {
@@ -761,6 +765,9 @@ figure {
 }
 
 .inputStylesComments:hover {
+  border: 1px solid #2196f3;
+}
+.inputStylesComments:focus {
   border: 1px solid #2196f3;
 }
 
@@ -829,6 +836,7 @@ figure {
   margin-top: 15px;
   color: #ececec;
   margin-left: 120px;
+  cursor: pointer;
 }
 
 /* /modal things*/ /* /modal things*/ /* /modal things*/ /* /modal things*/ /* /modal things*/ /* /modal things*/ /* /modal things*/ /* /modal things*/ /* /modal things*/ /* /modal things*/ /* /modal things*/ /* /modal things*/ /* /modal things*/ /* /modal things*/ /* /modal things*/ /* /modal things*/
